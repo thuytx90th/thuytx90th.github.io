@@ -2,14 +2,13 @@
 body{
 	font-family: 'Open Sans', sans-serif;
 }
-
 .menutop{	
 	padding: 0;
 }
 .menutop div.container{
 	background: #010101;
 }
-.menuphai, .logo{
+.menuphai, a.logo{
 	line-height: 55px;
 }
 .menutop a.logo, .menutop a.logo:hover, 
@@ -19,8 +18,39 @@ body{
 }
 .menutop a.logo{
 	font-size: 30px;
+	display: block;
 }
 .menutop .menuphai ul.nav.navbar-nav li.nav-item a{
 	color: #D7FFEF;
 	font-size:15px;
+}
+@media (max-width: 770px){
+	*{}
+
+	.menutop div.container {
+		background: none;
+	}
+
+	a.navbar-brand.logo {
+		width: 100%;
+		text-align: center;
+	}
+
+	.menuphai {
+		width: 100%;
+	}
+
+	ul.nav.navbar-nav.float-sm-right {
+		width: 100%;
+		float: left;
+	}
+
+	li.nav-item {
+		width: 100%;
+		text-align: center;
+		line-height: 25px;
+	}
+	.menutop .menuphai ul.nav.navbar-nav li.nav-item a {
+		color: #000;
+	}
 }
