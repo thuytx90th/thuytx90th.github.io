@@ -1,1 +1,26 @@
 *{margin: 0; padding: 0;} 
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.menutop{	
+	padding: 0;
+}
+.menutop div.container{
+	background: #010101;
+}
+.menuphai, .logo{
+	line-height: 55px;
+}
+.menutop a.logo, .menutop a.logo:hover, 
+.menutop .menuphai ul.nav.navbar-nav li.nav-item.active a, 
+.menutop .menuphai ul.nav.navbar-nav li.nav-item a:hover{
+	color: #1E75F6;
+}
+.menutop a.logo{
+	font-size: 30px;
+}
+.menutop .menuphai ul.nav.navbar-nav li.nav-item a{
+	color: #D7FFEF;
+	font-size:15px;
+}
